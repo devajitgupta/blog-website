@@ -1,0 +1,39 @@
+<div class="navbar">
+    <div class="top">
+        <mat-icon>notifications_none</mat-icon>
+    </div>
+    <div class="user">
+        <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fjustkraft.s3.amazonaws.com%2Fproductimages%2FADB100.jpg&imgrefurl=https%3A%2F%2Fjustkraft.com%2Fproduct%2Fartist-drawing-book-100-pages-140-gsm-size-a4-pack-contain-50-sheets-adb100&tbnid=pMljMQ7SQseK7M&vet=12ahUKEwiA9qWKr8T8AhWWi9gFHZDQDZgQMygCegUIARCmAQ..i&docid=xFqsG4TyEsD_cM&w=1200&h=1200&q=the%20artist%20gsm&ved=2ahUKEwiA9qWKr8T8AhWWi9gFHZDQDZgQMygCegUIARCmAQ">
+        <h4 class="admin">Admin </h4>
+        <p class="mail">mail,com</p>
+    </div>
+    <div class="menu">
+        <div class="menu-head">
+            <span>Dashboard</span>
+        </div>
+        <div class="menu-item">
+            <button  mat-button class="menu-button"[routerLink]="['/dashboard']">
+                <mat-icon>dashboard</mat-icon>
+                <span>Home</span>
+
+            </button>
+            <button  mat-button class="menu-button"[routerLink]="['/message']">
+                <mat-icon>message</mat-icon>
+                <span>Post</span>
+            </button>
+            <button  mat-button class="menu-button"[routerLink]="['/comments']">
+                <mat-icon>comments</mat-icon>
+                <span>Comments</span>
+            </button>
+            <button  mat-button class="menu-button"[routerLink]="['/pages']">
+                <mat-icon>pages</mat-icon>
+                <span>Pages</span>
+            </button>
+            
+            <button  mat-button class="menu-button"[routerLink]="['/settings']">
+                <mat-icon>settings</mat-icon>
+                <span>Settings</span>
+                </button>
+        </div>
+    </div>
+</div>
